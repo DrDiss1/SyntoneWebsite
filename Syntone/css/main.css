@@ -1,0 +1,382 @@
+@font-face {
+  font-family: 'horizon';
+  src: url('../fonts/horizon-bold-webfont.eot');
+  src: url('../fonts/horizon-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/horizon-bold-webfont.woff2') format('woff2'),
+  url('../fonts/horizon-bold-webfont.woff') format('woff'),
+  url('../fonts/horizon-bold-webfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'sus';
+    src: url('../fonts/susurrusbb-reg-webfont.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* unvisited link */
+a:link {
+    color: #00ff65;
+}
+
+/* visited link */
+a:visited {
+    color: #00ac5f;
+}
+
+/* mouse over link */
+a:hover {
+    color: #f10e44;
+}
+
+/* selected link */
+a:active {
+    color: #f10e44;
+}
+
+.central {
+  text-align: center;
+  justify-content: center;
+}
+
+.white {
+  color: #e8e8e8;
+}
+
+.subTitle {
+  font-size: 1.5em;
+}
+
+/* Image Elements */
+
+
+ul.social-media.social-1 i {
+  color: #00ac5f;
+}
+
+/* Layout Elements */
+
+
+body.grid-1 {
+    background-color: #282828;
+} 
+
+.topContainer {
+    position:fixed; 
+    max-width:none;
+    background-color: #282828;
+    z-index: 999;
+}
+
+.GreenRow {
+    background-color: #00ac5f;
+}
+
+.DarkRow {
+    background-color: #0a0a0a;
+}
+
+.DarkShadow {
+  box-shadow: 0 0 10px 6px #0a0a0a;
+}
+
+.BottomRow {
+  background-color: #282828;
+  box-shadow: 0 0 10px 6px #282828;
+}
+
+#menuRow, .contentRow {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+
+.roomVertical {
+  padding-top: 2.5em;
+  padding-bottom: 2.5em;
+}
+
+.roomHorizontal {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.ClearRow {
+    max-width: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background: url("../img/fancyBack.png") repeat fixed top;
+    z-index: -1;
+    min-height: 100vh;
+  }
+
+.spaceRow {
+    min-height: 300px;
+}
+
+.spaceRowDouble {
+    min-height: 600px;
+    background: url("../img/fancyBack.png") repeat fixed top;
+}
+
+#blogTitle {
+  padding-bottom:0.5em;
+}
+
+.wpcf7-form-control {
+    background-color: #f7f6f7;
+    color: #282828;
+}
+
+#notARobot {
+    background-color: transparent;
+}
+
+
+/* LOGO */
+
+.logoText {
+    font-family:'Exo', sans-serif;
+    font-size: 40px;
+}
+
+#syn {
+    font-weight: 100;
+    fill:#00AF62;
+}
+
+#tone {
+    font-weight: 400;
+    fill:#AFAEAF;
+}
+.greyBlock {
+    fill:#AFAEAF;
+}
+
+.greenBlock {
+    fill:#00AF62;
+}
+
+.darkBlock {
+    fill:#2D2D2C;
+}
+
+.blackBlock {
+    fill:#202020;
+}
+
+.block {
+    transform-origin: center bottom;
+    visibility: hidden;
+}
+
+#Logo {
+    position: fixed;
+    left: 50%;
+    top: 215px;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+/* END LOGO */
+
+/* MENU STYLES */
+
+
+.menu-header-menu-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-self: center;
+    width:100%;
+}
+
+
+#menu-header-menu {
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-left: 0;
+}
+
+#menu-header-menu li {
+    list-style: none;
+    align-self: center;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+
+#menu-header-menu ul {
+    line-height: 31px;
+    list-style: none outside none;
+}
+
+#menu-header-menu a, #menu-header-menu a:hover {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    border:medium none;
+    display:block;
+    text-decoration:none;
+}
+
+#menu-header-menu a, #menu-header-menu a:visited {
+    color:#00ac5f;
+    display:block;
+}
+
+#menu-header-menu a:hover, #menu-header-menu a:active, .current_page_item a, #home .on, #menu-footer a:hover {
+    color: #f10e44;
+}
+
+#menu-header-menu li.current-menu-item a {
+    color: #00ff65;
+}
+
+#menu-header-menu li ul {
+    height:auto;
+    line-height:30px;
+    margin:0;
+    padding:0;
+    position:absolute;
+    width:222px;
+}
+
+#menu-header-menu li li {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    width:220px;
+}
+
+#menu-header-menu li li a, #menu-header-menu li li a:visited {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    background:#00ac5f;
+    color:#282828;
+    font-size:1.125em;
+    font-weight:normal;
+}
+
+#menu-header-menu li li a:hover, #menu-header-menu li li a:active {
+    -moz-background-clip:border;
+    -moz-background-origin:padding;
+    background:#60625C none repeat scroll 0 0;
+    text-decoration: none;
+}
+
+#menu-header-menu li:hover ul, #menu-header-menu li li:hover ul, #menu-header-menu li li li:hover ul,   #menu-header-menu li.sfhover ul, #menu-header-menu li li.sfhover ul, #menu-header-menu li li li.sfhover ul     {
+    left:auto;
+}
+
+.svgA {
+    justify-content: center;
+    align-self: center;
+}
+
+.svgIcon {
+    height: 30px;
+    width: 30px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.widgettitle {
+    color: #e8e8e8;
+    font-size: 2.8em;
+}
+
+/* END MENU STYLES */
+
+
+/* WORDPRESS FIXINGS */
+
+#comment {
+    color: #282828;
+}
+
+#respond h3 {
+    font-size: 2em;
+    color: #e8e8e8;
+}
+
+.btpostdiv {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.btpostdiv div p {
+    align-self: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .roomHorizontal {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  h1 { font-size:4.0em; }
+
+  h2 { font-size:3.6em; }
+
+  h3 { font-size:3.2em; }
+
+  h4 { font-size:2.8em; }
+
+  h5 { font-size:2.4em; }
+
+  h6 { font-size:2.0em; }
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-size:1.0em; }
+
+    #sidebar ul {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+
+  .roomVertical {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+
+  h1 { font-size:3.0em; }
+
+  h2 { font-size:2.6em; }
+
+  h3 { font-size:2.2em; }
+
+  h4 { font-size:1.8em; }
+
+  h5 { font-size:1.4em; }
+
+  h6 { font-size:1.0em; }
+
+    h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-size:1.0em; }
+
+    #Logo {
+        position: fixed;
+        left: 50%;
+        top: 0;
+        margin-top: 0;
+        margin-left: -25px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .spaceRowDouble {
+        min-height: 300px;
+    }
+
+}
+
