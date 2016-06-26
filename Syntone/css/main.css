@@ -1,23 +1,3 @@
-@font-face {
-  font-family: 'horizon';
-  src: url('../fonts/horizon-bold-webfont.eot');
-  src: url('../fonts/horizon-bold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/horizon-bold-webfont.woff2') format('woff2'),
-  url('../fonts/horizon-bold-webfont.woff') format('woff'),
-  url('../fonts/horizon-bold-webfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'sus';
-    src: url('../fonts/susurrusbb-reg-webfont.eot');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
 
 /* unvisited link */
 a:link {
@@ -322,17 +302,17 @@ body.grid-1 {
     padding-right: 0.5em;
   }
 
-  h1 { font-size:4.0em; }
+  h1 { font-size:3.0em; }
 
-  h2 { font-size:3.6em; }
+  h2 { font-size:2.6em; }
 
-  h3 { font-size:3.2em; }
+  h3 { font-size:2.2em; }
 
-  h4 { font-size:2.8em; }
+  h4 { font-size:1.8em; }
 
-  h5 { font-size:2.4em; }
+  h5 { font-size:1.4em; }
 
-  h6 { font-size:2.0em; }
+  h6 { font-size:1.0em; }
 
     h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-size:1.0em; }
 
@@ -350,15 +330,15 @@ body.grid-1 {
     padding-bottom: 1.5em;
   }
 
-  h1 { font-size:3.0em; }
+  h1 { font-size:2.6em; }
 
-  h2 { font-size:2.6em; }
+  h2 { font-size:2.2em; }
 
-  h3 { font-size:2.2em; }
+  h3 { font-size:1.8em; }
 
-  h4 { font-size:1.8em; }
+  h4 { font-size:1.4em; }
 
-  h5 { font-size:1.4em; }
+  h5 { font-size:1.0em; }
 
   h6 { font-size:1.0em; }
 
